@@ -1,10 +1,3 @@
-"""
-INDUS-BRAIN MVP - Single File Prototype
-Run:
-pip install flask pymupdf google-generativeai chromadb sentence-transformers networkx matplotlib python-dotenv
-python app.py
-"""
-
 import os
 import fitz
 import chromadb
@@ -18,7 +11,7 @@ from sentence_transformers import SentenceTransformer
 
 document_text = ""
 
-GEMINI_API_KEY = "YOUR API KEY"
+GEMINI_API_KEY = "YOUR API KEY HERE"
 
 genai.configure(api_key=GEMINI_API_KEY)
 
