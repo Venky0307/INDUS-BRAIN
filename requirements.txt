@@ -1,0 +1,6 @@
+flask
+google-generativeai
+pymupdf
+networkx
+matplotlib
+python-dotenv
